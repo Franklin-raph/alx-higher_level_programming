@@ -9,15 +9,3 @@ if __name__ == "__main__":
         for i in range(1, count):
             add += int(argv.__getitem__(i))
         print("{}".format(add))
-
-
-
-# My own implementation
-
-# strring = "79 10 -40 -300 89"
-# total = 0
-# print(strring.split())
-# for i in strring.split():
-#     nums = int(i)
-#     total += nums
-# print(total)
