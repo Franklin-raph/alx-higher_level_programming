@@ -32,7 +32,9 @@ def multiply_by_2(a_dictionary):
     dictionary_values = a_dictionary.copy()
     for i in dictionary_values:
         new_dict[i] = dictionary_values[i] * 2
-    return dict(sorted(new_dict.items()))
+        ans = dict(sorted(new_dict.items()))
+        for key, val in ans.items():
+            return key
 
 a_dictionary = {'John': 12, 'Alex': 8, 'Bob': 14, 'Mike': 14, 'Molly': 16}
 new_dict = multiply_by_2(a_dictionary)
