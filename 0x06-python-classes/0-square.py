@@ -1,4 +1,5 @@
 #!/usr/bin/python3
-class Square(object):
-    """Attributes:object (any): Description of `attribute`."""
+"""This is a module with an empty square class"""
+class Square:
+    """An empty class without attributes."""
     pass
