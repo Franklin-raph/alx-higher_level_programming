@@ -9,17 +9,17 @@ class Rectangle:
         self.width = width
         self.height = height
 
-    def perimeter(self):
-        """returns the perimeter of the rectangle"""
-        wdt = self.__width
-        hgt = self.__height
-        if wdt == 0 or hgt == 0:
-            return 0
-        return (wdt + hgt) * 2
-    
     def area(self):
         """return the area of the rectangle"""
-        return self.__height * self.__width
+        return self.__width * self.__height
+
+    def perimeter(self):
+        """return the perimeter of the rectangle"""
+        w = self.__width
+        h = self.__height
+        if w == 0 or h == 0:
+            return 0
+        return (h + w) * 2
 
     @property
     def width(self):
