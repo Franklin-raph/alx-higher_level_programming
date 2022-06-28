@@ -26,3 +26,20 @@ print(l1)
 a = (1, 2)
 b = (1, 2)
 print("25 ans",a is b)
+
+
+
+
+
+def copy_list(l): return l[:]
+
+my_list = [1, 2, 3]
+print(my_list)
+
+new_list = copy_list(my_list)
+
+print(my_list)
+print(new_list)
+
+print(new_list == my_list)
+print(new_list is my_list)
