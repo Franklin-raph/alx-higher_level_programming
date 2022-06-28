@@ -23,8 +23,9 @@ l2 = [4, 5, 6]
 assign_value(l1, l2)
 print(l1)
 
-a = (1, 2)
+a = (1)
 b = (1, 2)
+print(type(a))
 print("25 ans",a is b)
 
 
