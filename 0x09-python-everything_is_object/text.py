@@ -25,4 +25,4 @@ print(l1)
 
 a = (1, 2)
 b = (1, 2)
-print(a is b)
+print("25 ans",a is b)
