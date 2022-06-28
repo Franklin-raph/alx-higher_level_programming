@@ -1,1 +1,2 @@
-type
+def print_type_of_object:
+    type
