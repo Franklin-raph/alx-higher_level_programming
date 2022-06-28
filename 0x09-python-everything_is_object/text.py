@@ -8,8 +8,8 @@ l1 = l1 + [4]
 print(l2)
 
 def increment(n):
-    n += 1
+    n.append(4)
 
-a = 1
-print(increment(a))
-print(a)
+l = [1, 2, 3]
+print(l)
+increment(l)
