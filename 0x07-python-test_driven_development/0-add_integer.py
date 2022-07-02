@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 """
 Defines a module that add two integers
 The module will be tested with doctest
