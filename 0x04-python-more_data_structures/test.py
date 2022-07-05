@@ -38,6 +38,16 @@ def multiply_by_2(a_dictionary):
 
 a_dictionary = {'John': 12, 'Alex': 8, 'Bob': 14, 'Mike': 14, 'Molly': 16}
 new_dict = multiply_by_2(a_dictionary)
-print(a_dictionary)
-print("--")
-print(new_dict)
+# print(a_dictionary)
+# print("--")
+# print(new_dict)
+
+
+def multiply_by_2(a_dictionary):
+    new_dict = {}
+    dictionary_values = a_dictionary.copy()
+    for i in dictionary_values:
+        new_dict[i] = dictionary_values[i] * 2
+    return dict(sorted(new_dict.items()))
+
+print(multiply_by_2({'John': 12, 'Alex': 8, 'Bob': 14, 'Mike': 14, 'Molly': 16}))
