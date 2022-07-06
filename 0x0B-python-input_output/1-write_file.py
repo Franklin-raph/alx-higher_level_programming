@@ -4,7 +4,7 @@
 
 def write_file(filename="", text=""):
     """method for writing file"""
-    val = 0
+    num_of_chars = 0
     with open(filename, 'w', encoding='UTF-8') as myfile:
-        val = myfile.write(text)
-    return val
+        num_of_chars = myfile.write(text)
+    return num_of_chars

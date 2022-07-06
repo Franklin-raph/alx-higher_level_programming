@@ -4,6 +4,8 @@
 
 def append_write(filename="", text=""):
     """method for appending to a file"""
-    with open(filename, 'a') as fileHandle:
-        fileHandle.write(text)
+    num_of_chars = 0
+    with open(filename, 'a', encoding='UTF-8') as fileHandle:
+        num_of_chars = fileHandle.write(text)
     fileHandle.close()
+    return num_of_chars
