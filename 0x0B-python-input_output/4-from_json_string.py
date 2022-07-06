@@ -4,5 +4,5 @@ import json
 
 
 def from_json_string(my_str):
-    json.dump(my_str)
-    
+    """method for returning a json string(deserializer)"""
+    json.loads(my_str)

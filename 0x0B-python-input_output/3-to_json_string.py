@@ -4,5 +4,5 @@ import json
 
 
 def to_json_string(my_obj):
-    """method for returning a json string"""
+    """method for returning a json string(serializer)"""
     return json.dumps(my_obj)
