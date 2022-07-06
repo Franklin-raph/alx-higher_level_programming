@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Mod for file writing"""
+"""Module for file writing"""
 
 
 def write_file(filename="", text=""):
