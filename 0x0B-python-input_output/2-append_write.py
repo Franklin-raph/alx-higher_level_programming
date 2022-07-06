@@ -7,5 +7,3 @@ def append_write(filename="", text=""):
     with open(filename, 'a') as fileHandle:
         fileHandle.write(text)
     fileHandle.close()
-
-append_write("text1.txt", "hgfdsa")
